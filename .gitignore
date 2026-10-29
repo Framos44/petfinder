@@ -1,0 +1,28 @@
+# Credenciais
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Dados locais do MVP (imagens e banco de demonstração)
+data/images/*
+!data/images/.gitkeep
+data/demo_queries/
+data/demo_db.json
+data/*.tmp
+
+# Logs
+*.log
+
+# IDE / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

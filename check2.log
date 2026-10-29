@@ -1,0 +1,19 @@
+﻿Carregando CLIP (openai/clip-vit-base-patch32)...
+.\.venv\Scripts\python.exe : Xet Storage is enabled for this repo, but the 
+'hf_xet' package is not installed. Falling back to regular HTTP download. For 
+better performance, install the package with: `pip install 
+huggingface_hub[hf_xet]` or `pip install hf_xet`
+No linha:1 caractere:101
++ ... ARNING="1"; .\.venv\Scripts\python.exe -u scripts\check_search.py 2>& ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Xet Storage is ...install hf_xet` 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  OK  consulta_1_cachorro_perdido.jpg: top-1 score 0.976
+  OK  consulta_2_cachorro_encontrado.jpg: top-1 score 0.970
+  OK  consulta_3_gato_perdido.jpg: top-1 score 0.953
+  OK  consulta_4_gato_encontrado.jpg: top-1 score 0.947
+  OK  consulta_5_cachorro_encontrado.jpg: top-1 score 0.980
+  OK  consulta_6_gato_perdido.jpg: top-1 score 0.957
+Top-1: 6/6
